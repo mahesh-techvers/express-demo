@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get And Post</title>
+  </head>
+  <body>
+    <form action="http://localhost:3000/tacos" method="get">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" />
+      <br /><br />
+      <label for="number">Quantity:</label>
+      <input type="number" id="email" name="qty" />
+      <br /><br />
+      <button type="submit">Submit via GET</button>
+    </form>
+
+    <form action="http://localhost:3000/tacos" method="post">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" />
+      <br /><br />
+      <label for="number">Quantity</label>
+      <input type="number" id="email" name="qty" />
+      <br /><br />
+      <button type="submit">Submit via POST</button>
+    </form>
+  </body>
+</html>
